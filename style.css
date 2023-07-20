@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    height: 100vh;
+    width: 100%;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-table,
+  .second-table,
+  .third-table,
+  .fourth-table {
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  .first-table {
+    background-color: rgb(104, 67, 153);
+  }
+  .second-table {
+    height: 50px;
+    border-collapse: separate;
+    border: 5px solid rgb(61, 73, 180);
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .third-table {
+    height: 50px;
+    background: #fffefe;
+    border-collapse: separate;
+    border: 5px solid rgb(88, 66, 209);
+    color: #000000;
+  }
+  
+  .fourth-table {
+    color: #000000;
+  }
+  
+  .third-table td {
+    height: 100%;
+  }
+  
+  td,
+  th {
+    border: 1px solid black;
+  }
